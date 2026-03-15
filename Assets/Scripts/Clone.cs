@@ -14,7 +14,7 @@ public class Clone : MonoBehaviour
         {
             Clones[i] = GameObject.Instantiate(mother);
 
-            // lowered Y from 2 to 0.5 so blocks sit on the ground
+          
             Clones[i].transform.position = new Vector3(Random.Range(-2f, 2f), 0.5f, i);
         }
     }
